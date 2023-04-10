@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 80);
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+}
+.profil li {
+    display: inline;
+    
+}
+.profil a {
+    position: relative;
+    display: inline;
+    font-size: 25px;
+    color: beige;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.profil a::before {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 6px;
+    background-color: rgb(184, 130, 130);
+    transition: 0.5s; 
+}
+.profil a:hover:before {
+    width: 100%;
+}
+.profil a::after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 6px;
+    background-color: rgb(194, 144, 144);
+    transition: 0.6s;
+}
+.profil a:hover::after {
+    width: 100%;
+}
+.profil  a:hover {
+    color: rgb(241, 187, 116);
+}
+nav .profil h1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+h1{
+    color: beige;
+}
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+
+}
+.folio   {
+   margin-top: 20px;
+
+    
+
+}
+img {
+    border-radius: 80%;
+    width: 250px;
+    height: 250px; 
+
+    
+}
+#apropos {
+    margin-top: 6%;
+
+}
+.contenu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.descript {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px;
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    color: #03002b;
+}
+.formation1
+ {
+ background-color: rgb(59, 59, 35);
+ width: 250px;
+ color: white;
+ padding: 8px;
+ text-align: center;
+ border-radius: 5px;
+}
+.formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6%;
+
+}
+.skils1 {
+    background-color: rgb(59, 59, 35);
+    width: 250px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;  
+}
+.competence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experience {
+    margin-top: 6%;
+    font-size: 20px;
+    display: flex;
+    
+
+}
+.experiences {
+    margin-right: 300px;
+}
+.experiences h5{
+    margin-top: 0;
+}
+.date {
+    font-size: 28px;
+    color: rgb(145, 145, 145);
+}
+footer {
+    background-color: #0b0b0c;
+
+    padding-top: 5px;
+    color: white;
+
+}
+footer p {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+}
+footer .icon {
+    padding-right: 30px;
+}
+
+
+
+
+
+
